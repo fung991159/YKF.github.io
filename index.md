@@ -6,6 +6,9 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <form action="http://google.com">
+    <input type="submit" value="Go to Google" />
+</form>
   <div class="timer">
     <div class="timer__controls">
       <button data-time="20" class="timer__button">20 Secs</button>
@@ -15,6 +18,7 @@
       <button data-time="3600" class="timer__button">Lunch Break</button>
       <form name="customForm" id="custom">
         <input type="text" name="minutes" placeholder="Enter Minutes">
+        
       </form>
     </div>
     <div class="display">
