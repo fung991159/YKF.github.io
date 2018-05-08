@@ -1,7 +1,40 @@
-<!DOCTYPE html>
+
 <html>
-  <body>haha</body>
+  <title>hello world!</title>
+  
+  <body>
+  <h1>Trying to start a page here</h1>
+  </body>
+  
+  
+  
+  <script>
+  
+    </script>
+  
+  
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Welcome to GitHub Pages
 
