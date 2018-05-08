@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-  <title>haha</title>
+  <body>haha</body>
 </html>
 
 ## Welcome to GitHub Pages
