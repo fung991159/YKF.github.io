@@ -8,7 +8,7 @@
 <body>
   <form action="http://google.com">
     <input type="submit" value="Go to Google" />
-</form>
+  </form>
   <div class="timer">
     <div class="timer__controls">
       <button data-time="20" class="timer__button">20 Secs</button>
