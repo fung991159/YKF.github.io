@@ -225,7 +225,7 @@
   <!-- Contact Info -->
   <div id="contact">
       <i class="fas fa-map-marker-alt"></i> Hong Kong
-      <i class="far fa-paper-plane"></i> yeung.kei.fung@gmail.com
+      <i class="far fa-paper-plane"></i> <a href="mailto:yeung.kei.fung@gmail.com"> yeung.kei.fung@gmail.com</a>
   </div>
 
  
