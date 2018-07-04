@@ -16,22 +16,20 @@
             right: 100px;
             }
   
-  ul {
-  list-style-type: none;
+  #skillsUl {
+    width: 29%;
+    float:left;
+    list-style-type: none;
   } 
 
   ul i {
-    font-size:30px;
+    font-size:28px;
   }
   
   ul i.fa-star{
     font-size:1px;
   }
-
-  /* ul i.info{
-    font-size:30px;
-  } */
-  
+ 
   #name {font-family: 'Germania One', cursive;
            font-size: 50px;
            color:#111;}
@@ -48,14 +46,15 @@
                text-decoration: none;
                }
 
+
   /* nav bar         */
   nav {
-    background:black;
-    top:0;
-    width: 100%;
-    transition:all 0.5s;
-    position: relative;
-    z-index: 1;
+  background:black;
+  top:0;
+  width: 100%;
+  transition:all 0.5s;
+  position: relative;
+  z-index: 1;
   }
 
   body.fixed-nav nav {
@@ -97,22 +96,13 @@
 
   nav a {
     text-decoration: none;
-    padding:0px;
+    padding:20px;
     display: inline-block;
     color:white;
     transition:all 0.2s;
     text-transform: uppercase;
   }
 
-  .skills h5 {
-    padding-bottom: 0px;
-  }
-  
-  .skills h1 {
-    display:inline-block;
-    padding-top:0px;
-    padding-left:5px;
-  }
     
 </style>
 <body>
@@ -125,7 +115,7 @@
         <li><a href="#">Previous works</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
-    </nav>
+  </nav>
 
   <!-- short Introduction add photo here -->
   <div class = "intro">
@@ -138,33 +128,99 @@
   </div>
 
   <div class ="aboutMe">
-    <h5 id="anchorAboutMe">About Me</h5>
+    <h3 id="anchorAboutMe">About Me</h3>
     <p> Hello I am Fung! I have passion in lot of fields in life. To name a few, I love data analytic, data visualization, reading, investing and sailing</p>
   </div>
-
-  
+  <br>
   <!-- Skills -->
-  <div class = "skills">
-   <h5>Skills &nbsp;<i id="skillInfo" class="fas fa-info-circle" style="font-size:15px;"></i></h5>
-   <ul> 
+    <!-- pending to add tooltips for icon and stars-->
+   <h3>Skills &nbsp;<i class="fas fa-info-circle" style="font-size:15px;" title="Hello"></i></h3> 
+    <ul id = "skillsUl"> 
      <h4>Data-related</h4>
-     <li><i class="fab fa-r-project" title="R Project"></i>&nbsp;&nbsp;&nbsp;R project&nbsp;&nbsp;&nbsp;<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></i></li>
+     <li>
+      <i class="fab fa-r-project" title="R Project"></i>&nbsp;&nbsp;&nbsp;R project&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="far fa-star"></i>
+      <i class="far fa-star"></i>
+      <i class="far fa-star"></i>
+     </li>
      <br>
-     <li><img src="https://qph.ec.quoracdn.net/main-qimg-91e9c9cb7b33fbe025b71b119fe9f753" title="Excel VBA" height="30" width="30">&nbsp;&nbsp;&nbsp;&nbsp;Excel VBA&nbsp;<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></li>
+     <li><img src="https://qph.ec.quoracdn.net/main-qimg-91e9c9cb7b33fbe025b71b119fe9f753" title="Excel VBA" height="30" width="30">&nbsp;&nbsp;&nbsp;&nbsp;Excel VBA&nbsp;&nbsp;&nbsp;
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="far fa-star"></i>
+     </li>
      <br>
-     <li>&nbsp;<img src="https://www.wize-net.co.jp/develop/images/img_d3_main.png" title="D3.js" height="30" width="30">&nbsp;&nbsp;D3.js&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></li>
+     <li>&nbsp;<img src="https://www.wize-net.co.jp/develop/images/img_d3_main.png" title="D3.js" height="30" width="30">&nbsp;&nbsp;D3.js&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="far fa-star"></i>
+      <i class="far fa-star"></i>
+     </li>
+    </ul>
+
+    <ul id = "skillsUl"> 
+     <h4>Web Development</h4>
+     <li><i class="fab fa-html5"  title="HTML5"></i>&nbsp;&nbsp;HTML5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="far fa-star"></i>
+    </li> 
+     <br>
+     <li><i class="fab fa-css3-alt"  title="CSS3"></i>&nbsp;&nbsp;CSS3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="far fa-star"></i>
+      <i class="far fa-star"></i>
+    </li> 
+     <br>
+     <li><i class="fab fa-js"  title="Javascript"></i>&nbsp;&nbsp;Javascript&nbsp;&nbsp;&nbsp;&nbsp;
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star"></i>
+     <i class="far fa-star"></i>
+     <i class="far fa-star"></i>
+     </li> 
    </ul>
-   <h1><i class="fab fa-html5"  title="HTML5"></i></h1>
-   <h1><i class="fab fa-css3-alt" title="CSS3"></i></h1>
-   <h1><i class="fab fa-js" title="Javascript"></i></h1>
 
-   <h1><i class="fab fa-python" title="Python"></i></h1>
-   
-   <img src="https://upload.wikimedia.org/wikipedia/en/2/24/Imacros.png" title="Imacros for Firefox" height="30" width="30">
+   <ul id = "skillsUl"> 
+    <h4>Others</h4>
+    <li><i class="fab fa-python"  title="Python"></i>&nbsp;&nbsp;Python&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     <i class="fas fa-star"></i>
+     <i class="far fa-star"></i>
+     <i class="far fa-star"></i>
+     <i class="far fa-star"></i>
+     <i class="far fa-star"></i>
+   </li> 
+    <br>
+    <li><img src="https://upload.wikimedia.org/wikipedia/en/2/24/Imacros.png" title="iMacros for Firefox" height="30" width="30">&nbsp;&nbsp;iMacros&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star"></i>
+     <i class="far fa-star"></i>
+     <i class="far fa-star"></i>
+     </li> 
+    </ul>
 
-  </div>
 
 <!-- previous works -->
+<div>
+  <br style="clear: both;">
+  <br>
+  <h3 >Previous Works</h2>
+    <!-- 1. D3 example (column chart + map)
+    2. VBA example
+    3. imacro example (video) -->
+
+</div>
+
 
   <!-- Contact Info -->
   <div id="contact">
@@ -247,7 +303,6 @@
     window.addEventListener('scroll', fixNav);
     
     // Skills additional info
-
     const skillInfoButton = document.getElementById("skillInfo");
     skillInfoButton.addEventListener("mouseover", ()=>{
       console.log("hello")
