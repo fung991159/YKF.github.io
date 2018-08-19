@@ -161,7 +161,6 @@ text.qtyLineText {
 
 </style>
 <body>
-	<div id='Top10_EU' data-title="Top 10 apparel countries export to the EU" data-qtyLineHeight=5 data-link="https://docs.google.com/spreadsheets/d/e/2PACX-1vShlPjGPJdg8HbQ5w_N5w6UnDjjNEOqqIEb5cDHI2reosL7hCU2q4Dl_IdfnyVaZR4dwdPBf2-1Rffo/pub?output=csv"> test</div>
   <!-- nav bar -->  <!-- add jump to page transition-->
   <nav id="navbar">
       <ul>
@@ -277,8 +276,7 @@ text.qtyLineText {
     <!-- D3.js example -->
     <p>In my current job I uses D3.js to show data in a interactive and dynamic way</p>
     <p>Here is a excel chart converted into HTML version. By doing so the it allows automation of generating chart on a regular basis. Also it saves lot of time in terms of adjusting chart appearance</p>
-   
-
+    <div id="Top10_EU"></div>
 
     <p> This is a simple interactive chart, clicking it will sort the data base on value</p>
     <div id="chart" title="click to sort data"></div>
@@ -500,9 +498,9 @@ DrawD3Chart()
             width = +svg.attr("width") - margin.left - margin.right,
             height = +svg.attr("height") - margin.top - margin.bottom,
             g = svg.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")"),
-            dataLink = d3.select('#'+tableType).attr("data-link"),
-            chartTitle = d3.select('#'+tableType).attr("data-title"),
-            qtyLineHeight = d3.select('#'+tableType).attr("data-qtyLineHeight");
+            dataLink = "https://docs.google.com/spreadsheets/d/e/2PACX-1vShlPjGPJdg8HbQ5w_N5w6UnDjjNEOqqIEb5cDHI2reosL7hCU2q4Dl_IdfnyVaZR4dwdPBf2-1Rffo/pub?output=csv",
+            chartTitle = "Top 10 apparel countries export to the EU",
+            qtyLineHeight = 3;
             // dataLink = "https://s3-eu-central-1.amazonaws.com/dev03.h-oi/wp-content/uploads/sites/63/2018/07/EachTopProduct-num1.csv"
         
         //Formater for y axis and line
