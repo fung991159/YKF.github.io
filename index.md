@@ -272,7 +272,7 @@ text.qtyLineText {
 <div>
   <br style="clear: both;">
   <br>
-  <h3 >Previous Works</h2>
+  <h3 >Previous Works</h3>
     <!-- D3.js example -->
     <p>In my current job I uses D3.js to show data in a interactive and dynamic way</p>
     <p>Here is a excel chart converted into HTML version. By doing so the it allows automation of generating chart on a regular basis. 
