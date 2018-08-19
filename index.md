@@ -498,10 +498,10 @@ DrawD3Chart()
             width = +svg.attr("width") - margin.left - margin.right,
             height = +svg.attr("height") - margin.top - margin.bottom,
             g = svg.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")"),
-            dataLink = "https://docs.google.com/spreadsheets/d/e/2PACX-1vShlPjGPJdg8HbQ5w_N5w6UnDjjNEOqqIEb5cDHI2reosL7hCU2q4Dl_IdfnyVaZR4dwdPBf2-1Rffo/pub?output=csv",
+            dataLink = "fung991159.github.io/EU_Top10_CombineDATA-2.csv",
             chartTitle = "Top 10 apparel countries export to the EU",
             qtyLineHeight = 3;
-            // dataLink = "https://s3-eu-central-1.amazonaws.com/dev03.h-oi/wp-content/uploads/sites/63/2018/07/EachTopProduct-num1.csv"
+
         
         //Formater for y axis and line
         var formatPercent = d3.format(".0%");
