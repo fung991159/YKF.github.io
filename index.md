@@ -270,6 +270,7 @@ text.qtyLineText {
 
 <!-- previous works -->
 <div>
+	<div id="Top10_EU"></div>
   <br style="clear: both;">
   <br>
   <h3 >Previous Works</h3>
@@ -776,6 +777,7 @@ DrawD3Chart()
         });}
 
 EUChart("Top10_EU");
+
     </script>
   </body>
 </html>
