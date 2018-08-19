@@ -351,7 +351,6 @@ text.qtyLineText {
         css.type = "text/css";
         css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
         document.body.appendChild(css);
-
     };
 
     //fix nav bar
@@ -776,7 +775,7 @@ DrawD3Chart()
         // .text("Top 10 apparel countries export to the EU");
         });}
 
-        EUChart("Top10_EU");
+EUChart("Top10_EU");
     </script>
   </body>
 </html>
