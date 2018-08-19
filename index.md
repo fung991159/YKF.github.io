@@ -734,7 +734,7 @@ DrawD3Chart()
     .enter().append("g").attr("class", "legend")
 
      legend.append("rect")
-      .attr("x", width -180)
+      .attr("x", width -270)
       .attr("width", 19)
       .attr("height", 19)
       .attr("fill", z)
@@ -746,7 +746,7 @@ DrawD3Chart()
        });
 
      legend.append("text")
-      .attr("x", width-158)
+      .attr("x", width-250)
       .attr("y", 9)
       .attr("dy", "0.35em")
       .style("text-anchor", "start")
