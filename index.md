@@ -270,17 +270,15 @@ text.qtyLineText {
 
 <!-- previous works -->
 <div>
-
   <br style="clear: both;">
   <br>
-  <h3 >Previous Works</h3>
+  <h3>Previous Works</h3>
     <!-- D3.js example -->
     <p>In my current job I uses D3.js to show data in a interactive and dynamic way</p>
-    <p>Here is a excel chart converted into HTML version. By doing so the it allows automation of generating chart on a regular basis. 
-        Also it saves lot of time in terms of adjusting chart appearance</p>
-	
-
-        <div id="Top10_EU" data-title="Top 10 apparel countries export to the EU" data-qtyLineHeight=5  data-link="https://docs.google.com/spreadsheets/d/e/2PACX-1vShlPjGPJdg8HbQ5w_N5w6UnDjjNEOqqIEb5cDHI2reosL7hCU2q4Dl_IdfnyVaZR4dwdPBf2-1Rffo/pub?output=csv"></div>
+    <p>Here is a excel chart converted into HTML version. By doing so the it allows automation of generating chart on a regular basis. Also it saves lot of time in terms of adjusting chart appearance</p>
+        <div id="Top10_EU" data-title="Top 10 apparel countries export to the EU" data-qtyLineHeight=5  
+        data-link="https://docs.google.com/spreadsheets/d/e/2PACX-1vShlPjGPJdg8HbQ5w_N5w6UnDjjNEOqqIEb5cDHI2reosL7hCU2q4Dl_IdfnyVaZR4dwdPBf2-1Rffo/pub?output=csv">
+        </div>
 
     <p> This is a simple interactive chart, clicking it will sort the data base on value</p>
     <div id="chart" title="click to sort data"></div>
@@ -288,12 +286,12 @@ text.qtyLineText {
    
     <!-- 2. VBA example -->
     <!-- 3. imacro example (video) -->
-</div>
+
   <!-- Contact Info -->
   <div id="contact">
       <i class="fas fa-map-marker-alt"></i> Hong Kong
       <i class="far fa-paper-plane"></i> yeung.kei.fung@gmail.com</a>
-  </div>
+</div>
 
  
   <script>
@@ -778,7 +776,6 @@ DrawD3Chart()
         });}
 
 EUChart("Top10_EU");
-
     </script>
   </body>
 </html>
