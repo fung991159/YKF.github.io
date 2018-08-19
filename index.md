@@ -336,6 +336,7 @@ text.qtyLineText {
     };
     
     window.onload = function() {
+    EUChart("Top10_EU")
         var elements = document.getElementsByClassName('typewrite');
         for (var i=0; i<elements.length; i++) {
             var toRotate = elements[i].getAttribute('data-type');
@@ -343,6 +344,7 @@ text.qtyLineText {
             if (toRotate) {
               new TxtType(elements[i], JSON.parse(toRotate), period);
             }
+	    
         }
         // INJECT CSS
         var css = document.createElement("style");
