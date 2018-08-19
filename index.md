@@ -776,6 +776,4 @@ window.onload = function() {
     EUChart("Top10_EU");
 }
     </script>
-  </body>
-</html>
- 
+
