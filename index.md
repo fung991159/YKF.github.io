@@ -161,9 +161,7 @@ text.qtyLineText {
 
 </style>
 <body>
-	   <div id="Top10_EU" data-title="Top 10 apparel countries export to the EU" data-qtyLineHeight=5  
-        data-link="https://docs.google.com/spreadsheets/d/e/2PACX-1vShlPjGPJdg8HbQ5w_N5w6UnDjjNEOqqIEb5cDHI2reosL7hCU2q4Dl_IdfnyVaZR4dwdPBf2-1Rffo/pub?output=csv"> test
-        </div>
+	<div id='Top10_EU' data-title="Top 10 apparel countries export to the EU" data-qtyLineHeight=5 data-link="https://docs.google.com/spreadsheets/d/e/2PACX-1vShlPjGPJdg8HbQ5w_N5w6UnDjjNEOqqIEb5cDHI2reosL7hCU2q4Dl_IdfnyVaZR4dwdPBf2-1Rffo/pub?output=csv"> test</div>
   <!-- nav bar -->  <!-- add jump to page transition-->
   <nav id="navbar">
       <ul>
