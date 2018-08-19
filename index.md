@@ -502,7 +502,6 @@ DrawD3Chart()
             //width = +svg.attr("width") - margin.left - margin.right,
             //height = +svg.attr("height") - margin.top - margin.bottom,
             g = svg.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")"),
-            title = svg.attr("title"),
             dataLink = d3.select('#'+tableType).attr("data-link"),
             chartTitle = d3.select('#'+tableType).attr("data-title"),
             qtyLineHeight = d3.select('#'+tableType).attr("data-qtyLineHeight");
