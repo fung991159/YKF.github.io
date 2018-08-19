@@ -774,8 +774,8 @@ DrawD3Chart()
         // .text("Top 10 apparel countries export to the EU");
         });}
 
-window.onload = function() {
-    EUChart("Top10_EU");
-}
+//window.onload = function() {
+//    EUChart("Top10_EU");
+//}
     </script>
 
